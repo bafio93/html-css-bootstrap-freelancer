@@ -220,6 +220,10 @@ nav ul a:hover {
     background-color: white;
 }
 
+#contact h2 {
+    margin-top: 80px;
+}
+
 #contact .star-deco {
     margin-bottom: 40px;
 }

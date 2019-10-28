@@ -1,0 +1,86 @@
+.container, .container-fluid {
+    background-color: salmon;
+    border: 1px solid gold;
+}
+
+[class^=col] {
+    border: 1px solid magenta;
+}
+
+/* Styling header */
+
+header {
+    background-color: rgb(44,62,80);
+    height: 100px;
+}
+
+header div {
+    height: 100%;
+    line-height: 100px;
+}
+
+header a {
+    color: white;
+}
+
+/* Styling jumbo */
+
+#jumbo {
+    height: 800px;
+    background-color: rgb(26,188,156);
+}
+
+#jumbo img {
+    width: 240px;
+}
+
+/* Styling portfolio */
+
+#portfolio {
+    height: 800px;
+    background-color: white;
+}
+
+#portfolio [class^=col] {
+    height: 200px;
+}
+
+/* Styling about */
+
+#about {
+    height: 800px;
+    background-color: rgb(26,188,156);
+}
+
+#about [class^=col] {
+    height: 200px;
+}
+
+/* Styling contact */
+
+#contact {
+    height: 800px;
+    background-color: white;
+}
+
+#contact [class^=col] {
+    height: 200px;
+}
+
+/* Styling footer */
+
+footer {
+    height: 400px;
+    background-color: rgb(44,62,80);
+}
+
+footer [class^=col] {
+    height: 200px;
+}
+
+/* Styling copyright */
+
+#copyright {
+    height: 200px;
+    background-color: rgb(26,37,47);
+}

@@ -12,6 +12,20 @@
     color: white;
 }
 
+.blue-text {
+    color: rgb(44,62,80);
+}
+
+.section-title {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.fa-star {
+    font-size: 40px;
+    display: block;
+}
+
 /* Styling nav */
 
 nav {
@@ -63,11 +77,6 @@ nav ul a:hover {
     padding-top: 100px;
 }
 
-#jumbo i {
-    font-size: 40px;
-    display: block;
-}
-
 #jumbo .star-deco {
     align-items: center;
 }
@@ -96,12 +105,48 @@ nav ul a:hover {
 /* Styling portfolio */
 
 #portfolio {
-    height: 800px;
     background-color: white;
+    padding-bottom: 90px;
 }
 
-#portfolio [class^=col] {
-    height: 200px;
+#portfolio h2 {
+    margin-top: 90px;
+}
+
+#portfolio i {
+    margin-bottom: 30px;
+}
+
+#portfolio .portfolio-item {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#portfolio .portfolio-item img {
+    width: 100%;
+}
+
+#portfolio .overlay-green {
+    width: calc(100% - 30px);
+    height: 100%;
+    background-color: rgba(26,188,156,0.9);
+    line-height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.overlay-green i {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.overlay-green, #portfolio .portfolio-item:hover{
+    display: block;
 }
 
 /* Styling about */

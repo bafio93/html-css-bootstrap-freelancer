@@ -1,5 +1,4 @@
 .container, .container-fluid {
-    background-color: salmon;
     border: 1px solid gold;
 }
 
@@ -7,25 +6,51 @@
     border: 1px solid magenta;
 }
 
-/* Styling header */
+/* Standard styling for the page: */
 
-header {
-    background-color: rgb(44,62,80);
-    height: 100px;
-}
-
-header div {
-    height: 100%;
-    line-height: 100px;
-}
-
-header a {
+* {
     color: white;
+}
+
+/* Styling nav */
+
+nav {
+    background-color: rgb(44,62,80);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+nav div, nav li {
+    height: 100%;
+    line-height: 80px;
+}
+
+nav a {
+    color: white;
+    font-weight: bolder;
+}
+
+nav div a[class="lead"]:hover {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover {
+    text-decoration: none;
+    color: rgb(26,188,156);
+}
+
+.more-padding {
+    padding: 0 10px;
 }
 
 /* Styling jumbo */
 
 #jumbo {
+    margin-top: 80px;
     height: 800px;
     background-color: rgb(26,188,156);
 }

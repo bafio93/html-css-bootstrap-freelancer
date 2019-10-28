@@ -26,6 +26,43 @@
     display: block;
 }
 
+.star-deco {
+    align-items: center;
+}
+
+.star-deco * {
+    display: inline-block;
+}
+
+.star-deco .star-strip {
+    border-bottom: 5px solid white;
+    height: 50%;
+    width: 100px;
+    position: relative;
+    bottom: 15px;
+}
+
+.star-deco i {
+    padding: 0 10px;
+}
+
+.btn-transparent {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    transform: scale(1.2);
+}
+
+.btn-transparent i {
+    color: white;
+    margin: 0px 10px;
+}
+
+.btn-transparent:hover, .btn-transparent:hover i{
+    background-color: white;
+    color:black;
+}
+
 /* Styling nav */
 
 nav {
@@ -77,25 +114,6 @@ nav ul a:hover {
     padding-top: 100px;
 }
 
-#jumbo .star-deco {
-    align-items: center;
-}
-
-#jumbo .star-deco * {
-    display: inline-block;
-}
-
-#jumbo .star-deco .star-strip {
-    border-bottom: 5px solid white;
-    height: 50%;
-    width: 100px;
-    position: relative;
-    bottom: 15px;
-}
-
-#jumbo .star-deco i {
-    padding: 0 10px;
-}
 
 #jumbo p {
     padding: 30px 0 90px;
@@ -152,12 +170,17 @@ nav ul a:hover {
 /* Styling about */
 
 #about {
-    height: 800px;
     background-color: rgb(26,188,156);
+    padding-top: 60px;
 }
 
-#about [class^=col] {
-    height: 200px;
+#about p {
+    font-size: 125%;
+    margin-top: 40px;
+}
+
+#about a {
+    margin: 40px 0 80px;
 }
 
 /* Styling contact */

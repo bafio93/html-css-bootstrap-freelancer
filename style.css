@@ -51,12 +51,46 @@ nav ul a:hover {
 
 #jumbo {
     margin-top: 80px;
-    height: 800px;
     background-color: rgb(26,188,156);
+}
+
+#jumbo h1 {
+    font-size: 60px;
 }
 
 #jumbo img {
     width: 240px;
+    padding-top: 100px;
+}
+
+#jumbo i {
+    font-size: 40px;
+    display: block;
+}
+
+#jumbo .star-deco {
+    align-items: center;
+}
+
+#jumbo .star-deco * {
+    display: inline-block;
+}
+
+#jumbo .star-deco .star-strip {
+    border-bottom: 5px solid white;
+    height: 50%;
+    width: 100px;
+    position: relative;
+    bottom: 15px;
+}
+
+#jumbo .star-deco i {
+    padding: 0 10px;
+}
+
+#jumbo p {
+    padding: 30px 0 90px;
+    font-size: 175%;
 }
 
 /* Styling portfolio */

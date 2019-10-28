@@ -42,6 +42,10 @@
     bottom: 15px;
 }
 
+.star-deco .star-strip.blue-text {
+    border-bottom: 5px solid rgb(44,62,80);
+}
+
 .star-deco i {
     padding: 0 10px;
 }
@@ -61,6 +65,18 @@
 .btn-transparent:hover, .btn-transparent:hover i{
     background-color: white;
     color:black;
+}
+
+.btn-green {
+    background-color: rgb(26,188,156);
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+.btn-green:hover {
+    background-color: rgb(21,154,128);
+    color: white;
 }
 
 /* Styling nav */
@@ -186,12 +202,33 @@ nav ul a:hover {
 /* Styling contact */
 
 #contact {
-    height: 800px;
     background-color: white;
 }
 
-#contact [class^=col] {
+#contact .star-deco {
+    margin-bottom: 40px;
+}
+
+#contact input {
+    border: none;
+    box-shadow: none;
+    font-size: 150%;
+}
+
+#contact input:last-of-type {
     height: 200px;
+}
+
+#contact ::placeholder {
+    color: rgb(108,117,125);
+}
+
+#contact hr {
+    margin: 30px 0;
+}
+
+#contact a {
+    margin-bottom: 90px;
 }
 
 /* Styling footer */
